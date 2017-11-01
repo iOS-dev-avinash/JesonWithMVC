@@ -9,16 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var jes = JesonModel();
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+       
+        
+        jes.parseData(urlForData: "https://itunes.apple.com/us/rss/topgrossingipadapplications/limit=25/json") { (dictionary) in
+            print(dictionary)
+        }
+        
+        DispatchQueue.main.async {
+            print("fgjcghvhvhjhhhh")
+        }
+        
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
 
 
 }
