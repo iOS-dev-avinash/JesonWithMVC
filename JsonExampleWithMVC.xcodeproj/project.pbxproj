@@ -13,6 +13,8 @@
 		841D7ABA1FA3A94D0020D763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D7AB91FA3A94D0020D763 /* Assets.xcassets */; };
 		841D7ABD1FA3A94D0020D763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841D7ABB1FA3A94D0020D763 /* LaunchScreen.storyboard */; };
 		841D7AC51FA3A98F0020D763 /* JesonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D7AC41FA3A98F0020D763 /* JesonModel.swift */; };
+		843F8F171FACBFE0003F35F7 /* ParseUsingPostMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843F8F161FACBFE0003F35F7 /* ParseUsingPostMethod.swift */; };
+		843F8F191FACC2E3003F35F7 /* ParseUsingGetMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843F8F181FACC2E3003F35F7 /* ParseUsingGetMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		841D7ABC1FA3A94D0020D763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841D7ABE1FA3A94D0020D763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841D7AC41FA3A98F0020D763 /* JesonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JesonModel.swift; sourceTree = "<group>"; };
+		843F8F161FACBFE0003F35F7 /* ParseUsingPostMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseUsingPostMethod.swift; sourceTree = "<group>"; };
+		843F8F181FACC2E3003F35F7 /* ParseUsingGetMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseUsingGetMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				841D7ABB1FA3A94D0020D763 /* LaunchScreen.storyboard */,
 				841D7ABE1FA3A94D0020D763 /* Info.plist */,
 				841D7AC41FA3A98F0020D763 /* JesonModel.swift */,
+				843F8F161FACBFE0003F35F7 /* ParseUsingPostMethod.swift */,
+				843F8F181FACC2E3003F35F7 /* ParseUsingGetMethod.swift */,
 			);
 			path = JsonExampleWithMVC;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				841D7AC51FA3A98F0020D763 /* JesonModel.swift in Sources */,
+				843F8F171FACBFE0003F35F7 /* ParseUsingPostMethod.swift in Sources */,
 				841D7AB51FA3A94D0020D763 /* ViewController.swift in Sources */,
 				841D7AB31FA3A94D0020D763 /* AppDelegate.swift in Sources */,
+				843F8F191FACC2E3003F35F7 /* ParseUsingGetMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +311,7 @@
 				841D7AC31FA3A94E0020D763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
